@@ -42,10 +42,10 @@ URLSCAN_API_KEY = "YOUR_URLSCAN_API_KEY"
 The tool can be run in two modes:
 
 1. Single Domain Mode: Specify a domain using the d flag.
-2. 
+
 go run gohack.go -d example.com
 
-3. File Input Mode: Use the f flag to specify a file containing multiple
+2. File Input Mode: Use the f flag to specify a file containing multiple
 domains.
 
 go run gohack.go -f domains.txt
